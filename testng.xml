@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Sanity" parallel="false" thread-count="1"	configfailurepolicy="continue">
+     <test name="Category EndPoint Sanity Tests">
+        <classes>
+            <class name="CategoryAPITests"/>
+        </classes>
+    </test>
+    <test name="Product EndPoint Sanity Tests">
+        <classes>
+            <class name="ProductApiTests"/>
+        </classes>
+    </test>
+    <test name="Store EndPoint Sanity Tests">
+        <classes>
+            <class name="StoreApiTests"/>
+        </classes>
+    </test>
+</suite>

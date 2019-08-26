@@ -1,0 +1,10 @@
+{
+  "valid_product_request_body":{
+    "name": "New Product%s",
+    "type": "Hard Good",
+    "upc": "12345676",
+    "price": 99.99,
+    "description": "This is a placeholder request for creating a new product.",
+    "model": "NP%s"
+  }
+}
