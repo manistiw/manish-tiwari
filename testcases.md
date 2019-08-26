@@ -1,5 +1,6 @@
 Following test cases are automated:
 
+#product api automation
   - Validate creating product
   - Validate get all products
   - Validate query product with price range.
